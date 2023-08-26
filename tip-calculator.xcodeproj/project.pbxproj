@@ -16,6 +16,11 @@
 		B4E545832A99DBDD004BE2D2 /* tip_calculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E545822A99DBDD004BE2D2 /* tip_calculatorTests.swift */; };
 		B4E5458D2A99DBDD004BE2D2 /* tip_calculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E5458C2A99DBDD004BE2D2 /* tip_calculatorUITests.swift */; };
 		B4E5458F2A99DBDD004BE2D2 /* tip_calculatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E5458E2A99DBDD004BE2D2 /* tip_calculatorUITestsLaunchTests.swift */; };
+		B4E5459D2A99DC76004BE2D2 /* CombineCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = B4E5459C2A99DC76004BE2D2 /* CombineCocoa */; };
+		B4E545A02A99DCCA004BE2D2 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = B4E5459F2A99DCCA004BE2D2 /* SnapKit */; };
+		B4E545A32A99DD18004BE2D2 /* CombineCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = B4E545A22A99DD18004BE2D2 /* CombineCocoa */; };
+		B4E545A62A99DD6D004BE2D2 /* SnapshotTesting in Frameworks */ = {isa = PBXBuildFile; productRef = B4E545A52A99DD6D004BE2D2 /* SnapshotTesting */; };
+		B4E545A82A99DD8D004BE2D2 /* CombineCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = B4E545A72A99DD8D004BE2D2 /* CombineCocoa */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +61,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4E5459D2A99DC76004BE2D2 /* CombineCocoa in Frameworks */,
+				B4E545A02A99DCCA004BE2D2 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +70,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4E545A32A99DD18004BE2D2 /* CombineCocoa in Frameworks */,
+				B4E545A62A99DD6D004BE2D2 /* SnapshotTesting in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4E545A82A99DD8D004BE2D2 /* CombineCocoa in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +93,7 @@
 				B4E545812A99DBDD004BE2D2 /* tip-calculatorTests */,
 				B4E5458B2A99DBDD004BE2D2 /* tip-calculatorUITests */,
 				B4E545692A99DBDB004BE2D2 /* Products */,
+				B4E545A12A99DD18004BE2D2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +138,13 @@
 			path = "tip-calculatorUITests";
 			sourceTree = "<group>";
 		};
+		B4E545A12A99DD18004BE2D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +161,10 @@
 			dependencies = (
 			);
 			name = "tip-calculator";
+			packageProductDependencies = (
+				B4E5459C2A99DC76004BE2D2 /* CombineCocoa */,
+				B4E5459F2A99DCCA004BE2D2 /* SnapKit */,
+			);
 			productName = "tip-calculator";
 			productReference = B4E545682A99DBDB004BE2D2 /* tip-calculator.app */;
 			productType = "com.apple.product-type.application";
@@ -161,6 +183,10 @@
 				B4E545802A99DBDD004BE2D2 /* PBXTargetDependency */,
 			);
 			name = "tip-calculatorTests";
+			packageProductDependencies = (
+				B4E545A22A99DD18004BE2D2 /* CombineCocoa */,
+				B4E545A52A99DD6D004BE2D2 /* SnapshotTesting */,
+			);
 			productName = "tip-calculatorTests";
 			productReference = B4E5457E2A99DBDD004BE2D2 /* tip-calculatorTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -179,6 +205,9 @@
 				B4E5458A2A99DBDD004BE2D2 /* PBXTargetDependency */,
 			);
 			name = "tip-calculatorUITests";
+			packageProductDependencies = (
+				B4E545A72A99DD8D004BE2D2 /* CombineCocoa */,
+			);
 			productName = "tip-calculatorUITests";
 			productReference = B4E545882A99DBDD004BE2D2 /* tip-calculatorUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -215,6 +244,11 @@
 				Base,
 			);
 			mainGroup = B4E5455F2A99DBDB004BE2D2;
+			packageReferences = (
+				B4E5459B2A99DC76004BE2D2 /* XCRemoteSwiftPackageReference "CombineCocoa" */,
+				B4E5459E2A99DCCA004BE2D2 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				B4E545A42A99DD6D004BE2D2 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */,
+			);
 			productRefGroup = B4E545692A99DBDB004BE2D2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -602,6 +636,61 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B4E5459B2A99DC76004BE2D2 /* XCRemoteSwiftPackageReference "CombineCocoa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CombineCommunity/CombineCocoa.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 0.4.1;
+			};
+		};
+		B4E5459E2A99DCCA004BE2D2 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 5.6.0;
+			};
+		};
+		B4E545A42A99DD6D004BE2D2 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-snapshot-testing.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 1.11.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B4E5459C2A99DC76004BE2D2 /* CombineCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B4E5459B2A99DC76004BE2D2 /* XCRemoteSwiftPackageReference "CombineCocoa" */;
+			productName = CombineCocoa;
+		};
+		B4E5459F2A99DCCA004BE2D2 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B4E5459E2A99DCCA004BE2D2 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		B4E545A22A99DD18004BE2D2 /* CombineCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B4E5459B2A99DC76004BE2D2 /* XCRemoteSwiftPackageReference "CombineCocoa" */;
+			productName = CombineCocoa;
+		};
+		B4E545A52A99DD6D004BE2D2 /* SnapshotTesting */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B4E545A42A99DD6D004BE2D2 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */;
+			productName = SnapshotTesting;
+		};
+		B4E545A72A99DD8D004BE2D2 /* CombineCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B4E5459B2A99DC76004BE2D2 /* XCRemoteSwiftPackageReference "CombineCocoa" */;
+			productName = CombineCocoa;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B4E545602A99DBDB004BE2D2 /* Project object */;
 }
