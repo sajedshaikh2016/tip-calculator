@@ -28,6 +28,7 @@
 		B4E545B62A9A15CF004BE2D2 /* ThemeColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E545B52A9A15CF004BE2D2 /* ThemeColor.swift */; };
 		B4E545B82A9A15EB004BE2D2 /* ThemeFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E545B72A9A15EB004BE2D2 /* ThemeFont.swift */; };
 		B4E545BB2A9A166E004BE2D2 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E545BA2A9A166E004BE2D2 /* UIColor+Extension.swift */; };
+		B4E545BE2A9A20ED004BE2D2 /* LabelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E545BD2A9A20ED004BE2D2 /* LabelFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,7 @@
 		B4E545B52A9A15CF004BE2D2 /* ThemeColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeColor.swift; sourceTree = "<group>"; };
 		B4E545B72A9A15EB004BE2D2 /* ThemeFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeFont.swift; sourceTree = "<group>"; };
 		B4E545BA2A9A166E004BE2D2 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		B4E545BD2A9A20ED004BE2D2 /* LabelFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 		B4E5456A2A99DBDB004BE2D2 /* tip-calculator */ = {
 			isa = PBXGroup;
 			children = (
+				B4E545BC2A9A20CB004BE2D2 /* factory */,
 				B4E545B92A9A164A004BE2D2 /* extension */,
 				B4E545B42A9A15B0004BE2D2 /* config */,
 				B4E545A92A99E36C004BE2D2 /* view */,
@@ -188,6 +191,14 @@
 				B4E545BA2A9A166E004BE2D2 /* UIColor+Extension.swift */,
 			);
 			path = extension;
+			sourceTree = "<group>";
+		};
+		B4E545BC2A9A20CB004BE2D2 /* factory */ = {
+			isa = PBXGroup;
+			children = (
+				B4E545BD2A9A20ED004BE2D2 /* LabelFactory.swift */,
+			);
+			path = factory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -345,6 +356,7 @@
 				B4E5456C2A99DBDB004BE2D2 /* AppDelegate.swift in Sources */,
 				B4E545B82A9A15EB004BE2D2 /* ThemeFont.swift in Sources */,
 				B4E5456E2A99DBDB004BE2D2 /* SceneDelegate.swift in Sources */,
+				B4E545BE2A9A20ED004BE2D2 /* LabelFactory.swift in Sources */,
 				B4E545B32A99FEE1004BE2D2 /* SplitInputView.swift in Sources */,
 				B4E545B12A99FEBA004BE2D2 /* TipInputView.swift in Sources */,
 			);
