@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B482F3512A9B28EE00926761 /* AmountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B482F3502A9B28EE00926761 /* AmountView.swift */; };
 		B4E5456C2A99DBDB004BE2D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E5456B2A99DBDB004BE2D2 /* AppDelegate.swift */; };
 		B4E5456E2A99DBDB004BE2D2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E5456D2A99DBDB004BE2D2 /* SceneDelegate.swift */; };
 		B4E545702A99DBDB004BE2D2 /* CalculatorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E5456F2A99DBDB004BE2D2 /* CalculatorVC.swift */; };
@@ -50,6 +51,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B482F3502A9B28EE00926761 /* AmountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountView.swift; sourceTree = "<group>"; };
 		B4E545682A99DBDB004BE2D2 /* tip-calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tip-calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4E5456B2A99DBDB004BE2D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B4E5456D2A99DBDB004BE2D2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -174,6 +176,7 @@
 				B4E545AE2A99FE7E004BE2D2 /* BillInputView.swift */,
 				B4E545B02A99FEBA004BE2D2 /* TipInputView.swift */,
 				B4E545B22A99FEE1004BE2D2 /* SplitInputView.swift */,
+				B482F3502A9B28EE00926761 /* AmountView.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -350,6 +353,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B482F3512A9B28EE00926761 /* AmountView.swift in Sources */,
 				B4E545702A99DBDB004BE2D2 /* CalculatorVC.swift in Sources */,
 				B4E545AB2A99E39B004BE2D2 /* LogoView.swift in Sources */,
 				B4E545B62A9A15CF004BE2D2 /* ThemeColor.swift in Sources */,
