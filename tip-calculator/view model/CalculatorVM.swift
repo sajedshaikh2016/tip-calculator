@@ -24,8 +24,8 @@ class CalculatorVM {
     
     func transform(input: Input) -> Output {
         
-        input.billPublisher.sink { bill in
-            print("The bill: \(bill)")
+        input.tipPublisher.sink { tip in
+            print("The tip: \(tip)")
         }.store(in: &cancellables)
         
         let result = Result(
