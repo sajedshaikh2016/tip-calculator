@@ -48,6 +48,10 @@ class CalculatorVC: UIViewController {
             tipPublisher: tipInputView.valuePublisher,
             splitPublisher: splitInputView.valuePublisher)
         let output = vm.transform(input: input)
+        
+        output.updateViewPublisher.sink { result in
+            print(result)
+        }.store(in: &cancellables)
     }
     
     private func layout() {
