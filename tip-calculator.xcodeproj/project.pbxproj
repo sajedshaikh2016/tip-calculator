@@ -14,6 +14,7 @@
 		B42CCF6F2A9B7D4E00B697F8 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42CCF6E2A9B7D4E00B697F8 /* String+Extension.swift */; };
 		B42CCF712A9B7ED400B697F8 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42CCF702A9B7ED400B697F8 /* UIView+Extension.swift */; };
 		B47BF9CD2AA2181400200F19 /* UIResponder+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47BF9CC2AA2181400200F19 /* UIResponder+Extension.swift */; };
+		B47BF9CF2AA2227E00200F19 /* Int+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47BF9CE2AA2227E00200F19 /* Int+Extension.swift */; };
 		B482F3512A9B28EE00926761 /* AmountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B482F3502A9B28EE00926761 /* AmountView.swift */; };
 		B4E5456C2A99DBDB004BE2D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E5456B2A99DBDB004BE2D2 /* AppDelegate.swift */; };
 		B4E5456E2A99DBDB004BE2D2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E5456D2A99DBDB004BE2D2 /* SceneDelegate.swift */; };
@@ -64,6 +65,7 @@
 		B42CCF6E2A9B7D4E00B697F8 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		B42CCF702A9B7ED400B697F8 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		B47BF9CC2AA2181400200F19 /* UIResponder+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIResponder+Extension.swift"; sourceTree = "<group>"; };
+		B47BF9CE2AA2227E00200F19 /* Int+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Extension.swift"; sourceTree = "<group>"; };
 		B482F3502A9B28EE00926761 /* AmountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountView.swift; sourceTree = "<group>"; };
 		B4E545682A99DBDB004BE2D2 /* tip-calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tip-calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4E5456B2A99DBDB004BE2D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -229,6 +231,7 @@
 				B42CCF6E2A9B7D4E00B697F8 /* String+Extension.swift */,
 				B42CCF702A9B7ED400B697F8 /* UIView+Extension.swift */,
 				B47BF9CC2AA2181400200F19 /* UIResponder+Extension.swift */,
+				B47BF9CE2AA2227E00200F19 /* Int+Extension.swift */,
 			);
 			path = extension;
 			sourceTree = "<group>";
@@ -390,6 +393,7 @@
 				B42CCF6B2A9B710F00B697F8 /* Result.swift in Sources */,
 				B42CCF692A9B6F4400B697F8 /* CalculatorVM.swift in Sources */,
 				B47BF9CD2AA2181400200F19 /* UIResponder+Extension.swift in Sources */,
+				B47BF9CF2AA2227E00200F19 /* Int+Extension.swift in Sources */,
 				B482F3512A9B28EE00926761 /* AmountView.swift in Sources */,
 				B42CCF6F2A9B7D4E00B697F8 /* String+Extension.swift in Sources */,
 				B4E545702A99DBDB004BE2D2 /* CalculatorVC.swift in Sources */,
