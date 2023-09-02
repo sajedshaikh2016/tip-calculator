@@ -47,7 +47,7 @@ class CalculatorVM {
         case .none:
             return 0
         case .tenPercent:
-            return bill * 0.1
+            return bill * 0.10
         case .fifteenPercent:
             return bill * 0.15
         case .twentyPercent:

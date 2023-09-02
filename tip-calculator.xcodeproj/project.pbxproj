@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B40B2DCF2AA312DA0029AB80 /* Double+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40B2DCE2AA312DA0029AB80 /* Double+Extension.swift */; };
 		B42CCF642A9B57B500B697F8 /* Tip.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42CCF632A9B57B500B697F8 /* Tip.swift */; };
 		B42CCF662A9B580F00B697F8 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42CCF652A9B580F00B697F8 /* HeaderView.swift */; };
 		B42CCF692A9B6F4400B697F8 /* CalculatorVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42CCF682A9B6F4400B697F8 /* CalculatorVM.swift */; };
@@ -58,6 +59,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B40B2DCE2AA312DA0029AB80 /* Double+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extension.swift"; sourceTree = "<group>"; };
 		B42CCF632A9B57B500B697F8 /* Tip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip.swift; sourceTree = "<group>"; };
 		B42CCF652A9B580F00B697F8 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		B42CCF682A9B6F4400B697F8 /* CalculatorVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorVM.swift; sourceTree = "<group>"; };
@@ -232,6 +234,7 @@
 				B42CCF702A9B7ED400B697F8 /* UIView+Extension.swift */,
 				B47BF9CC2AA2181400200F19 /* UIResponder+Extension.swift */,
 				B47BF9CE2AA2227E00200F19 /* Int+Extension.swift */,
+				B40B2DCE2AA312DA0029AB80 /* Double+Extension.swift */,
 			);
 			path = extension;
 			sourceTree = "<group>";
@@ -406,6 +409,7 @@
 				B4E545B82A9A15EB004BE2D2 /* ThemeFont.swift in Sources */,
 				B4E5456E2A99DBDB004BE2D2 /* SceneDelegate.swift in Sources */,
 				B4E545BE2A9A20ED004BE2D2 /* LabelFactory.swift in Sources */,
+				B40B2DCF2AA312DA0029AB80 /* Double+Extension.swift in Sources */,
 				B42CCF642A9B57B500B697F8 /* Tip.swift in Sources */,
 				B4E545B32A99FEE1004BE2D2 /* SplitInputView.swift in Sources */,
 				B4E545B12A99FEBA004BE2D2 /* TipInputView.swift in Sources */,
