@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		B40B2DCF2AA312DA0029AB80 /* Double+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40B2DCE2AA312DA0029AB80 /* Double+Extension.swift */; };
+		B40E1F4C2AB5E6EE00462E19 /* click.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B40E1F4B2AB5E6EE00462E19 /* click.m4a */; };
+		B40E1F4F2AB5E78100462E19 /* AudioPlayerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40E1F4E2AB5E78100462E19 /* AudioPlayerService.swift */; };
 		B42CCF642A9B57B500B697F8 /* Tip.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42CCF632A9B57B500B697F8 /* Tip.swift */; };
 		B42CCF662A9B580F00B697F8 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42CCF652A9B580F00B697F8 /* HeaderView.swift */; };
 		B42CCF692A9B6F4400B697F8 /* CalculatorVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42CCF682A9B6F4400B697F8 /* CalculatorVM.swift */; };
@@ -60,6 +62,8 @@
 
 /* Begin PBXFileReference section */
 		B40B2DCE2AA312DA0029AB80 /* Double+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extension.swift"; sourceTree = "<group>"; };
+		B40E1F4B2AB5E6EE00462E19 /* click.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = click.m4a; sourceTree = "<group>"; };
+		B40E1F4E2AB5E78100462E19 /* AudioPlayerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerService.swift; sourceTree = "<group>"; };
 		B42CCF632A9B57B500B697F8 /* Tip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip.swift; sourceTree = "<group>"; };
 		B42CCF652A9B580F00B697F8 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		B42CCF682A9B6F4400B697F8 /* CalculatorVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorVM.swift; sourceTree = "<group>"; };
@@ -122,6 +126,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B40E1F4A2AB5E6BF00462E19 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				B40E1F4B2AB5E6EE00462E19 /* click.m4a */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		B40E1F4D2AB5E75000462E19 /* service */ = {
+			isa = PBXGroup;
+			children = (
+				B40E1F4E2AB5E78100462E19 /* AudioPlayerService.swift */,
+			);
+			path = service;
+			sourceTree = "<group>";
+		};
 		B42CCF622A9B579700B697F8 /* model */ = {
 			isa = PBXGroup;
 			children = (
@@ -163,6 +183,8 @@
 		B4E5456A2A99DBDB004BE2D2 /* tip-calculator */ = {
 			isa = PBXGroup;
 			children = (
+				B40E1F4D2AB5E75000462E19 /* service */,
+				B40E1F4A2AB5E6BF00462E19 /* resource */,
 				B42CCF672A9B6F1E00B697F8 /* view model */,
 				B42CCF622A9B579700B697F8 /* model */,
 				B4E545BC2A9A20CB004BE2D2 /* factory */,
@@ -367,6 +389,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B40E1F4C2AB5E6EE00462E19 /* click.m4a in Resources */,
 				B4E545782A99DBDC004BE2D2 /* LaunchScreen.storyboard in Resources */,
 				B4E545752A99DBDC004BE2D2 /* Assets.xcassets in Resources */,
 			);
@@ -405,6 +428,7 @@
 				B4E545BB2A9A166E004BE2D2 /* UIColor+Extension.swift in Sources */,
 				B4E545AF2A99FE7E004BE2D2 /* BillInputView.swift in Sources */,
 				B4E545AD2A99FE31004BE2D2 /* ResultView.swift in Sources */,
+				B40E1F4F2AB5E78100462E19 /* AudioPlayerService.swift in Sources */,
 				B4E5456C2A99DBDB004BE2D2 /* AppDelegate.swift in Sources */,
 				B4E545B82A9A15EB004BE2D2 /* ThemeFont.swift in Sources */,
 				B4E5456E2A99DBDB004BE2D2 /* SceneDelegate.swift in Sources */,
