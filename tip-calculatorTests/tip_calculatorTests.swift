@@ -28,6 +28,7 @@ final class tip_calculatorTests: XCTestCase {
         super.tearDown()
         sut = nil
         cancellables = nil
+        audioPlayerService = nil
     }
     
     func testResultWithoutTipFor1Person() {
