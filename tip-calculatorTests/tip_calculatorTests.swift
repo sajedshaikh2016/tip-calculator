@@ -14,7 +14,7 @@ final class tip_calculatorTests: XCTestCase {
     private var sut: CalculatorVM!
     private var cancellables: Set<AnyCancellable>!
     
-    private let logoViewTapSubject = PassthroughSubject<Void, Never>()
+    private var logoViewTapSubject = PassthroughSubject<Void, Never>()
     private var audioPlayerService: MockAudioPlayerService!
     
     override func setUp() {
