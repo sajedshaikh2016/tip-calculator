@@ -110,6 +110,7 @@ final class tip_calculatorTests: XCTestCase {
     }
     
     func testSoundPlayedAndCalculatorResetOnLogoViewTap() {
+        
 //        Given
         let bill: Double = 100
         let tip: Tip = .tenPercent
