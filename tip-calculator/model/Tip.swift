@@ -8,6 +8,7 @@
 import UIKit
 
 enum Tip {
+
     case none
     case tenPercent
     case fifteenPercent
@@ -28,4 +29,5 @@ enum Tip {
             return String(value)
         }
     }
+    
 }
